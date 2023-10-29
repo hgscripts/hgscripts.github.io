@@ -25,10 +25,19 @@ nav:
 theme:
   name: material
   language: en
-  palette:
-    scheme: slate
-    primary: black
-    accent: blue
+  palette: 
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: black
+      accent: black
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 
   logo: assets/light_squircle@2x.png
   favicon: assets/favicon.ico

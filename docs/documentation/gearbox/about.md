@@ -13,7 +13,7 @@ icon: material/information
 ## Description
 ![HGSTICK](./assets/HGSTICK.png)
 
-Our script provides a significant enhancement to the in-game shifting experience. We've introduced three gearbox options: Manual, Auto, and Moto, and have made the user interface customizable. You can manipulate the gearboxes using your mouse or buttons, with a plethora of configuration options to tailor them to your preferences. It's all about elevating your gaming experience to the next level. All of this in a **STANDALONE** package
+Our script provides a significant enhancement to the in-game shifting experience. We've introduced three gearbox options: Manual, Auto, and Moto, and have made the user interface customizable. You can manipulate the gearboxes using your mouse or buttons, with a plethora of configuration options to tailor them to your preferences. It's all about elevating your gaming experience to the next level. All of this in a ==**STANDALONE**== package
 ## Features
 ### Settings Panel
 The settings panel enables players to fine-tune their gearboxes to their liking. We've designed an easy-to-use and intuitive user interface that allows you to adjust settings like position, size, and style for each gearbox. These screenshots display each tab within the panel:

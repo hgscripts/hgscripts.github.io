@@ -1,3 +1,4 @@
+/*SEARCH BAR ADDITIONS*/
 [data-md-toggle="search"]:not(:checked)~.md-header .md-search__form::after {
     position: absolute;
     top: .3rem;
@@ -18,7 +19,7 @@
         border-color: var(--md-default-bg-color--lighter);
     }
 }
-
+/* GRID ADD-ON */
 .md-typeset .grid {
     grid-gap: .4rem;
     display: grid;
@@ -98,7 +99,11 @@
     margin-bottom: 0;
     margin-top: 0
 }
-
+/*MARKER COLOR*/
+mark {
+    --md-typeset-mark-color: #ffff0068 !important;
+}
+/* YOUTUBE VIDEO EMBED */
 .video-wrapper {
     position: relative;
     display: block;
@@ -116,4 +121,9 @@
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+/* TRANSITIONS */
+* {
+    transition: background-color 150ms ease-out, color 10ms !important;
 }

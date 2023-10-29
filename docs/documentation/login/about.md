@@ -7,13 +7,13 @@ icon: material/information
 
 ## Preview
 <div class="video-wrapper">
-<iframe width="1280" height="720"  src="https://www.youtube.com/embed/GgGFnM9VQdU" title="HG Hgearbox" frameborder="0" allow="picture-in-picture;" allowfullscreen></iframe>
+<iframe width="1280" height="720"  src="https://www.youtube.com/embed/GgGFnM9VQdU" title="HG Login" frameborder="0" allow="picture-in-picture;" allowfullscreen></iframe>
 </div>
 
 ## Description
 ![thumbnail](assets/thumbnail.jpeg)
 
-This ==STANDALONE== FiveM login system by HG Scripts features improved user-friendliness, robust password recovery, and email verification upon registration for added security.
+This ==**STANDALONE**== FiveM login system by HG Scripts features improved user-friendliness, robust password recovery, and email verification upon registration for added security.
 
 ## Features & Functionality
 ### Functionality
