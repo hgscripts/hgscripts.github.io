@@ -9,42 +9,53 @@ nav:
       - documentation/gearbox/about.md
       - documentation/gearbox/installation.md
       - documentation/gearbox/configuration.md
-    - "🔗 Wanted System":
-      - documentation/wanted/about.md
-      - documentation/wanted/installation.md
-      - documentation/wanted/configuration.md
-
     - "🔒 Login System":
       - documentation/login/about.md
       - documentation/login/installation.md
       - documentation/login/configuration.md
-
+    - "🔗 Wanted System":
+      - documentation/wanted/about.md
+      - documentation/wanted/installation.md
+      - documentation/wanted/configuration.md
   - "Shop":
     - shop/index.md
   - "About":
     - about/index.md
+
 theme:
   name: material
   language: en
-  palette:
-    scheme: slate
-    primary: black
-    accent: blue
+  palette: 
+    - scheme: slate
+      primary: black
+      accent: blue
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+    - scheme: default
+      primary: black
+      accent: black
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
 
   logo: assets/light_squircle@2x.png
   favicon: assets/favicon.ico
   features:
-      - navigation.instant
       - content.action.edit
       - search.suggest
       - search.share
       - content.code.copy
       - content.code.select
+      - content.code.annotate
+      - toc.follow
       - navigation.instant
+      - navigation.instant.progress
       - navigation.tracking
       - navigation.tabs
-      - navigation.sections
+      - navigation.expand
       - navigation.indexes
+      - navigation.footer
 
 extra_css:
   - "stylesheets/extra.css"
@@ -66,6 +77,11 @@ markdown_extensions:
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.tabbed:
+      alternate_style: true
+  - toc:
+      title: On This Page
+      permalink: false
   - pymdownx.inlinehilite
   - pymdownx.snippets
   - pymdownx.superfences
@@ -75,18 +91,13 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.details
+  - def_list
   - attr_list
   - md_in_html
   - admonition
-
 plugins:
-  - group:
-      enabled: !ENV MKINSIDERS
-      plugins:
-        - optimize
-        - typeset
-        - social
   - tags
+  - glightbox
   - search:
       pipeline:
         - stemmer
