@@ -1,0 +1,100 @@
+site_name: HG Docs
+
+nav:
+  - "Home":
+    - index.md
+  - "Documentation":
+    - documentation/index.md
+    - "⚙️ Gearbox System":
+      - documentation/gearbox/about.md
+      - documentation/gearbox/installation.md
+      - documentation/gearbox/configuration.md
+    - "🔗 Wanted System":
+      - documentation/wanted/about.md
+      - documentation/wanted/installation.md
+      - documentation/wanted/configuration.md
+
+    - "🔒 Login System":
+      - documentation/login/about.md
+      - documentation/login/installation.md
+      - documentation/login/configuration.md
+
+  - "Shop":
+    - shop/index.md
+  - "About":
+    - about/index.md
+theme:
+  name: material
+  language: en
+  palette:
+    scheme: slate
+    primary: black
+    accent: blue
+
+  logo: assets/light_squircle@2x.png
+  favicon: assets/favicon.ico
+  features:
+      - navigation.instant
+      - content.action.edit
+      - search.suggest
+      - search.share
+      - content.code.copy
+      - content.code.select
+      - navigation.instant
+      - navigation.tracking
+      - navigation.tabs
+      - navigation.sections
+      - navigation.indexes
+
+extra_css:
+  - "stylesheets/extra.css"
+
+extra:
+  social:
+    - icon: fontawesome/solid/dollar-sign
+      link: https://hlib-lghoula.tebex.io/
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/@hliblghoula5946
+    - icon: fontawesome/brands/discord
+      link: https://discord.gg/Vn3Y2CP3n8
+  generator: false
+markdown_extensions:
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.critic
+  - pymdownx.caret
+  - pymdownx.keys
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.details
+  - attr_list
+  - md_in_html
+  - admonition
+
+plugins:
+  - group:
+      enabled: !ENV MKINSIDERS
+      plugins:
+        - optimize
+        - typeset
+        - social
+  - tags
+  - search:
+      pipeline:
+        - stemmer
+        - stopWordFilter
+        - trimmer
+
+copyright: |
+  &copy; 2023 <a href="https://github.com/hgscripts"  target="_blank" rel="noopener">Hlib L'Ghoula Scripts</a>
+
+
+
