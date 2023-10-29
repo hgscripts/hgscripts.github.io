@@ -6,4 +6,4 @@ hide:
   - path
 ---
 
-# About page in progress
+# ABOUT - In Progress

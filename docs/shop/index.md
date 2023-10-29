@@ -6,4 +6,4 @@ hide:
   - path
 ---
 
-# SHOP - Work in progress
+# SHOP - In Progress
