@@ -34,17 +34,20 @@ theme:
   logo: assets/light_squircle@2x.png
   favicon: assets/favicon.ico
   features:
-      - navigation.instant
       - content.action.edit
       - search.suggest
       - search.share
       - content.code.copy
       - content.code.select
+      - content.code.annotate
+      - toc.follow
       - navigation.instant
+      - navigation.instant.progress
       - navigation.tracking
       - navigation.tabs
-      - navigation.sections
+      - navigation.expand
       - navigation.indexes
+      - navigation.footer
 
 extra_css:
   - "stylesheets/extra.css"
@@ -75,10 +78,13 @@ markdown_extensions:
   - pymdownx.mark
   - pymdownx.tilde
   - pymdownx.details
+  - def_list
   - attr_list
   - md_in_html
   - admonition
-
+  - toc:
+      title: On This Page
+      permalink: false
 plugins:
   - group:
       enabled: !ENV MKINSIDERS
