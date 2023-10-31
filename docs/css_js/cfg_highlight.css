@@ -1,0 +1,12 @@
+/*Notations*/
+[data-md-color-scheme=slate] .language-ruby .n:nth-of-type(1),
+[data-md-color-scheme=slate] .language-ruby .k{
+    font-style: italic;
+    color:#e06253 ;
+}
+
+[data-md-color-scheme=default] .language-ruby .n:nth-of-type(1),
+[data-md-color-scheme=default] .language-ruby .k{
+    font-style: italic;
+    color:#e06253 ;
+}
