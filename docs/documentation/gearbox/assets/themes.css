@@ -1,0 +1,76 @@
+[data-theme=default] {
+    --m-01: #ff0000;
+    --m-02: #cc3838;
+    --m-03: #b1b2d6;
+    --g-01: linear-gradient(95deg, var(--m-01), var(--m-02))
+}
+
+[data-theme=purple] {
+    --gearboxBackgroundColor: #5042ab;
+    --gateOutlineColor: #f3c150;
+    --gateBackgroundColor: #000000;
+    --horizontalGateBackgoundColor: #000000;
+    --gearIndicatorColor: #ffffff;
+    --reverseGearColor: #f3c150;
+    --redlineColor: #f3c150;
+    --m-01: #5042ab;
+    --m-02: #776ace;
+    --m-03: #c9c5f5;
+    --g-01: linear-gradient(95deg, var(--m-01), var(--m-02))
+}
+
+[data-theme=blue] {
+    --gearboxBackgroundColor: #2b4777;
+    --gateOutlineColor: #caae5b;
+    --gateBackgroundColor: #001F3F;
+    --horizontalGateBackgoundColor: #001F3F;
+    --gearIndicatorColor: #e7ddcb;
+    --reverseGearColor: #f6b804;
+    --redlineColor: #90E0EF;
+    --m-01: #00a1e5;
+    --m-02: #006bbb;
+    --m-03: #c9c5f5;
+    --g-01: linear-gradient(95deg, var(--m-01), var(--m-02))
+}
+
+[data-theme=orange] {
+    --gearboxBackgroundColor: #e36f1d;
+    --gateOutlineColor: #FFF;
+    --gateBackgroundColor: #000000;
+    --horizontalGateBackgoundColor: #000000;
+    --gearIndicatorColor: #ffffff;
+    --reverseGearColor: #e36f1d;
+    --redlineColor: #FF0000;
+    --m-01: #ff7b52;
+    --m-02: #e55426;
+    --m-03: #e2c5bb;
+    --g-01: linear-gradient(95deg, var(--m-01), var(--m-02))
+}
+
+[data-theme=pink] {
+    --gearboxBackgroundColor: #fb6f92;
+    --gateOutlineColor: #945364;
+    --gateBackgroundColor: #FFF;
+    --horizontalGateBackgoundColor: #FFF;
+    --gearIndicatorColor: #403e41;
+    --reverseGearColor: #ff8fab;
+    --redlineColor: #ff8fab;
+    --m-01: #fb6f92;
+    --m-02: #ff8fab;
+    --m-03: #ffeaea;
+    --g-01: linear-gradient(95deg, var(--m-01), var(--m-02))
+}
+
+[data-theme=coffee] {
+    --gearboxBackgroundColor: #653025;
+    --gateOutlineColor: #e7ceb4;
+    --gateBackgroundColor: #000000;
+    --horizontalGateBackgoundColor: #000000;
+    --gearIndicatorColor: #e7ceb4;
+    --reverseGearColor: #FFF;
+    --redlineColor: #f3c150;
+    --m-01: #653025;
+    --m-02: #b4928b;
+    --m-03: #f1dad3;
+    --g-01: linear-gradient(95deg, var(--m-01), var(--m-02))
+}

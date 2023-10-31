@@ -44,4 +44,4 @@ This is a wanted system based on ==**QBCORE**== by Hlib L’ghoula.
 ![menu](assets/menu.jpg)
 
 ??? note
-    This menu utilizes [MenuV](https://github.com/ThymonA/menuv).
+    This menu utilizes [MenuV](https://github.com/ThymonA/menuv){:target="_blank"}.
