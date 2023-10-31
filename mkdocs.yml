@@ -58,8 +58,9 @@ theme:
       - navigation.footer
 
 extra_css:
-  - "stylesheets/extra.css"
-
+  - "css_js/extra.css"
+  - "css_js/lua_highlight.css"
+  - "css_js/cfg_highlight.css"
 extra:
   social:
     - icon: fontawesome/solid/dollar-sign
