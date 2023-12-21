@@ -9,6 +9,7 @@ nav:
       - documentation/gearbox/about.md
       - documentation/gearbox/installation.md
       - documentation/gearbox/configuration.md
+      - documentation/gearbox/developer.md
     - "🔒 Login System":
       - documentation/login/about.md
       - documentation/login/installation.md
@@ -49,8 +50,6 @@ theme:
       - content.code.select
       - content.code.annotate
       - toc.follow
-      - navigation.instant
-      - navigation.instant.progress
       - navigation.tracking
       - navigation.tabs
       - navigation.expand
@@ -106,7 +105,7 @@ plugins:
         - trimmer
 
 copyright: |
-  &copy; 2023 <a href="https://github.com/hgscripts"  target="_blank" rel="noopener">Hlib L'Ghoula Scripts</a>
+  &copy; 2024 <a href="https://github.com/hgscripts"  target="_blank" rel="noopener">Hlib L'Ghoula Scripts</a>
 
 
 

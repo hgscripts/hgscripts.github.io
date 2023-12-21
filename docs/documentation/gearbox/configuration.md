@@ -165,7 +165,7 @@ config.manualgearchangemethods = "both"  --(4)!
 
 1. Allow the vehicle to start rolling slowly in 1st gear after releasing the clutch.
 2. Enable engine braking when downshifting for a more realistic experience. (This will apply to motorcycles as well)
-3. if the car's transmission is modded in the mechanic this will add an additional gear in the box
+3. When enabled, vehicles with a modified transmission (Not stock) will get an extra gear.
 4. Choose the allowed methods for changing gears. 
     - Allowed options:
         - 'both'
@@ -324,7 +324,7 @@ You can customize the existing themes by changing the colors in the `themes.css`
 
 If the provided `themes.css` file isn't formatted, you can use an [online CSS formatter](https://codebeautify.org/css-beautify-minify) to make it readable, or simply download the formatted themes.css below
 <div class="grid cards" markdown>
--   [:fontawesome-solid-download:{ .lg .middle } __Download themes.css__](assets/themes.css){:download}
+-   [:fontawesome-solid-download:{ .lg .middle } __Download themes.css__](assets/themes.css){:download="themes.css"}
 </div>
 
 Each of these variables roughly describes what each color represents. Results may differ between gearboxes.
@@ -378,7 +378,7 @@ There, you'll find a collection of gearknobs. Here are the knobs which are used 
 You can download the provided Photoshop Document (`Gearknob.psd`) where you'll find a template.
 
 <div class="grid cards" markdown>
--   [:fontawesome-solid-download:{ .lg .middle } __Download Gearknobs.psd__](assets/Gearknobs.psd){:download}
+-   [:fontawesome-solid-download:{ .lg .middle } __Download Gearknobs.psd__](assets/Gearknobs.psd){:download"Gearknobs.psd"}
 </div>
 
 ???info

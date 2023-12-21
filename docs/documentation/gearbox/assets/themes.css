@@ -1,8 +1,15 @@
-[data-theme=default] {
+[data-theme=default]{
+    --gearboxBackgroundColor: #1f1e1e;
+    --gateOutlineColor: #cecece;
+    --gateBackgroundColor: #000000;
+    --horizontalGateBackgoundColor: #000000;
+    --gearIndicatorColor: #ffffff;
+    --reverseGearColor: #ff0000;
+    --redlineColor: #FF0000;
     --m-01: #ff0000;
     --m-02: #cc3838;
     --m-03: #b1b2d6;
-    --g-01: linear-gradient(95deg, var(--m-01), var(--m-02))
+    --g-01: linear-gradient(95deg, var(--m-01), var(--m-02));
 }
 
 [data-theme=purple] {
