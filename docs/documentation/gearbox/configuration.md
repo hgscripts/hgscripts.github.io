@@ -234,7 +234,7 @@ config.sportmodeBrakeForce = 1.5 --(9)!
     - Recommended off.
     - :material-alert: This will override ^^*config.SportModeEnabledOnlyForTheseClasses*^^ & ^^*config.SportModeEnabledForTheseVehicles*^^
 3. Enable Sport mode for the vehicle classes below.
-4. Vehicle classes can be found in the [FiveM Documentation](https://docs.fivem.net/natives/?_0x29439776AAA00A62).
+4. Vehicle classes can be found in the [FiveM Documentation](https://docs.fivem.net/natives/?_0x29439776AAA00A62){:target="_blank"}.
 5. Enable Sport mode only for these vehicles.
 6. Put the desired vehicles seperated by a comma  `,`
 7. Set drive force multiplier for sport mode. Recommended Values: 1.0-2.0
@@ -322,7 +322,7 @@ You can customize the existing themes by changing the colors in the `themes.css`
         └── themes.css
 ```
 
-If the provided `themes.css` file isn't formatted, you can use an [online CSS formatter](https://codebeautify.org/css-beautify-minify) to make it readable, or simply download the formatted themes.css below
+If the provided `themes.css` file isn't formatted, you can use an [online CSS formatter](https://codebeautify.org/css-beautify-minify){:target="_blank"} to make it readable, or simply download the formatted themes.css below
 <div class="grid cards" markdown>
 -   [:fontawesome-solid-download:{ .lg .middle } __Download themes.css__](assets/themes.css){:download="themes.css"}
 </div>
@@ -399,7 +399,7 @@ Example:
     font-weight: 400;
 }
 ```
-You can read more about font faces [here](https://www.w3schools.com/cssref/css3_pr_font-face_rule.php). 
+You can read more about font faces [here](https://www.w3schools.com/cssref/css3_pr_font-face_rule.php){:target="_blank"}. 
 
 ## Support
-If you found anything unclear, or you have any questions, you can contact us on [Discord](https://discord.com/invite/Vn3Y2CP3n8) by opening a ticket.
+If you found anything unclear, or you have any questions, you can contact us on [Discord](https://discord.com/invite/Vn3Y2CP3n8){:target="_blank"} by opening a ticket.

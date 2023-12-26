@@ -18,6 +18,7 @@ nav:
       - documentation/wanted/about.md
       - documentation/wanted/installation.md
       - documentation/wanted/configuration.md
+      - documentation/wanted/developer.md
   - "Shop":
     - shop/index.md
   - "About":

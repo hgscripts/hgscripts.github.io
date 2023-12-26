@@ -1,6 +1,6 @@
 ---
 title: Developer guide
-description: Developer guide (Exports) for HG-Gearbox
+description: Developer guide for HG Gearbox System
 icon: material/dev-to
 ---
 
