@@ -133,8 +133,8 @@ Specify vehicles that are forced to be automatic
 ```lua
 config.allvehiclesAreManualExcept = {
     status = false,
-   'nero'
-   't20'
+    'nero'
+    't20'
 }
 ```
 
@@ -143,8 +143,8 @@ Specify vehicles that are forced to be manual
 ```lua
 config.allvehiclesAreAutoExcept = {
     status = false,
-   'sultanrs'
-   'banshee'
+    'sultanrs'
+    'banshee'
 }
 ```
 !!! note
@@ -152,6 +152,14 @@ config.allvehiclesAreAutoExcept = {
 
 !!! Warning
     DO NOT enable 'config.allVehiclesAreManualExcept' and 'config.allVehiclesAreAutoExcept' simultaneously. The script will break.
+
+Specify vehicles that are forced to use the motorcycle gearbox
+```lua
+config.forcemotorcycle = {
+    status = false,
+    'policeb',
+}
+```
 
 ### Manual Gearbox Settings
 #### Gameplay
