@@ -3,7 +3,7 @@ title: Configuration
 description: Configuration documentation for HG Gearbox System
 icon: fontawesome/solid/gear
 ---
-# HG-GEARBOX Configuration Documentation
+# HG-Gearbox Configuration Documentation
 
 ## Config.lua
 ### General Settings

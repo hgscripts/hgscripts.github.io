@@ -1,5 +1,7 @@
 ---
 title: About
+description: Shop page for HG Scripts
+icon: fontawesome/solid/circle-info
 hide:
   - navigation
   - toc

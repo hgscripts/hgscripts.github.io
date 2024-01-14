@@ -1,6 +1,7 @@
 ---
 title: Documentation
-description: Docs intro
+description: Documentation page index 
+icon: fontawesome/solid/book
 ---
 
 <p>
@@ -19,4 +20,7 @@ description: Docs intro
 :fontawesome-solid-handcuffs: [&nbsp; Wanted System :octicons-arrow-right-24:](wanted/about.md)
 { .card }
 
+
+:fontawesome-solid-gavel: [&nbsp; Advanced Auction System :octicons-arrow-right-24:](auction/about.md)
+{ .card }
 </div>

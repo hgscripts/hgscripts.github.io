@@ -19,6 +19,11 @@ nav:
       - documentation/wanted/installation.md
       - documentation/wanted/configuration.md
       - documentation/wanted/developer.md
+    - "🏷️ Auction System":
+      - documentation/auction/about.md
+      - documentation/auction/installation.md
+      - documentation/auction/configuration.md
+      - documentation/auction/developer.md
   - "Shop":
     - shop/index.md
   - "About":

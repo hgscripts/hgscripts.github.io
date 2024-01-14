@@ -1,5 +1,7 @@
 ---
 title: Home
+description: Home page
+icon: fontawesome/solid/house
 hide:
   - navigation
   - toc
