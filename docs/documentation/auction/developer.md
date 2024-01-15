@@ -95,8 +95,9 @@ function giveother(xPlayer--[[ (1)!]], data--[[ (2)! ]])
 ### Give Reward Function
 This is the function used to give out the rewards to the players and notify the winning player. Variable xPlayer is an object that represents the players (Dependant on the framerwork) 
 ```lua
-function giveother(xPlayer--[[ (1)!]], data--[[ (2)! ]])
+function giveReward(xPlayer--[[ (1)!]], data--[[ (2)! ]])
 ```
+
 1. Player object (Dependant on the framework used)
 2. View [Data Object](#data-object)
 
@@ -119,6 +120,7 @@ data = {
     lastprice,--(14)!
     isPrivate,--(15)!
     isBlackMoney--(16)!
+    Itemcount--(17)!
 }
 ```
 
@@ -138,22 +140,12 @@ data = {
 14. Last bid price (float)
 15. Is auction private? (int, 0 or 1)
 16. Is auction black money? (int, 0 or 1)
-
+17. Item count (int)
 
 ### Admin permission check
+This function is used to check whether the current player is an administrator or not. You can set this function to return false to disable the admin's add/edit/delete permissions.
 ```lua
-function CheckIsAdmin(source, permissions)
-    if Config.Framework == "newesx" or Config.Framework == "oldesx" then
-        local Player = frameworkObject.GetPlayerFromId(source)
-        if  CheckPermissions(permissions, Player.getGroup()) then
-            return true
-        end
-    else
-        
-        if CheckPermissions(permissions, frameworkObject.Functions.GetPermission(source))then
-            return true
-        end
-    end
-    return false
-end
+function CheckIsAdmin(source, permissions--[[ (1)! ]])
 ```
+
+1. Array<String\>
