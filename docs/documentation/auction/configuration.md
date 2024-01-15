@@ -44,11 +44,11 @@ Change the language to any of the provided locales
 ```lua
 Config.Lang = "en"
 ```
-You can add a language or modify an existing one very easily. Simply navigate to the `ui/assets/locale` directory:
+You can add a language or modify an existing one very easily. Simply navigate to the `web/assets/locale` directory:
 ```
 .
 └── hg-auction/
-    └── ui/
+    └── web/
         └── assets/
             └── locale/
                 ├── en.json
@@ -108,12 +108,14 @@ Config.ServerWait = 120000 --(1)!
 Config.MinBet = 100 --(2)!
 Config.EnableAuctionDelete = true --(3)!
 Config.EnableAnimation = true -- (4)!
+Config.RequiredItem = "phone" --(5)!
 ```
 
 1. Amount of time between auction money refunding checks. Recommended > 30000 (In milliseconds)
 2. Minimum amount above the last bid.(Minimum value is 1)
 3. Allow auction deletion. (`#!lua true` or `#!lua false`)
 4. Enable tablet animation when opening the interface. (`#!lua true` or `#!lua false`)
+5. Item required to open the interface (item name or `#!lua false` to disable it)
 
 ##### Time Expansion settings
 The time expansion system extends the time by a configurable amount when someone bets before the auction ends. This setting is ^^highly recommended for servers with over 64 concurrent players^^ as it prevents any player lag/desyncing issues.
@@ -210,12 +212,12 @@ Config.LeoJobs = { --(3)!
     Admins have rights to add/edit/delete auctions by default
 
 ## Customization
-You can change/add Themes by changing the colors in the `theme.css` file, found under `ui/`.
+You can change/add Themes by changing the colors in the `theme.css` file, found under `web/`.
 
 ```
 .
-└── hg-gearbox/
-    └── ui/
+└── hg-auction/
+    └── web/
         └── theme.css
 ```
 

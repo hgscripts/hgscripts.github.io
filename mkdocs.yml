@@ -10,20 +10,20 @@ nav:
       - documentation/gearbox/installation.md
       - documentation/gearbox/configuration.md
       - documentation/gearbox/developer.md
-    - "🔒 Login System":
-      - documentation/login/about.md
-      - documentation/login/installation.md
-      - documentation/login/configuration.md
-    - "🔗 Wanted System":
-      - documentation/wanted/about.md
-      - documentation/wanted/installation.md
-      - documentation/wanted/configuration.md
-      - documentation/wanted/developer.md
     - "🏷️ Auction System":
       - documentation/auction/about.md
       - documentation/auction/installation.md
       - documentation/auction/configuration.md
       - documentation/auction/developer.md
+    - "🔗 Wanted System":
+      - documentation/wanted/about.md
+      - documentation/wanted/installation.md
+      - documentation/wanted/configuration.md
+      - documentation/wanted/developer.md
+    - "🔒 Login System":
+      - documentation/login/about.md
+      - documentation/login/installation.md
+      - documentation/login/configuration.md
   - "Shop":
     - shop/index.md
   - "About":

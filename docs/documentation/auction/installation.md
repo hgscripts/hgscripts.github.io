@@ -1,12 +1,12 @@
 ---
 title: Installation
-description: Installation guide for HG Gearbox System
+description: Installation guide for HG Auction System
 icon: fontawesome/solid/download
 ---
 # HG-Auction Installation Guide
 
 ## Step 1 - Execute SQL
-Included with the package you downloaded, you'll find a `hg-gearbox.sql` file
+Included with the package you downloaded, you'll find a `database.sql` file
 
 ```sql title="database.sql"
 
