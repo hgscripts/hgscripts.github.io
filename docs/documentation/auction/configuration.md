@@ -108,14 +108,18 @@ Config.ServerWait = 120000 --(1)!
 Config.MinBet = 100 --(2)!
 Config.EnableAuctionDelete = true --(3)!
 Config.EnableAnimation = true -- (4)!
-Config.RequiredItem = "phone" --(5)!
+Config.EnablePrivateAuction = true -- (5)!
+Config.EnableBlackMoneyAuction = true --(6)!
+Config.RequiredItem = "phone" --(7)!
 ```
 
 1. Amount of time between auction money refunding checks. Recommended > 30000 (In milliseconds)
 2. Minimum amount above the last bid.(Minimum value is 1)
 3. Allow auction deletion. (`#!lua true` or `#!lua false`)
 4. Enable tablet animation when opening the interface. (`#!lua true` or `#!lua false`)
-5. Item required to open the interface (item name or `#!lua false` to disable it)
+5. Enable private auctions (Only people with certain jobs can see private auctions. See [Access Settings](#access-settings))
+6. Enable black money auctions. This option is forced to false for qbcore.
+7. Item required to open the interface (item name or `#!lua false` to disable it)
 
 ##### Time Expansion settings
 The time expansion system extends the time by a configurable amount when someone bets before the auction ends. This setting is ^^highly recommended for servers with over 64 concurrent players^^ as it prevents any player lag/desyncing issues.
@@ -212,6 +216,8 @@ Config.LeoJobs = { --(3)!
     Admins have rights to add/edit/delete auctions by default
 
 ## Customization
+We include 4 themes: `"Default","Ocean","Purple", "Space"`. You can put these in Config.Theme.
+
 You can change/add Themes by changing the colors in the `theme.css` file, found under `web/`.
 
 ```

@@ -9,7 +9,37 @@ icon: fontawesome/solid/download
 Included with the package you downloaded, you'll find a `database.sql` file
 
 ```sql title="database.sql"
+CREATE TABLE IF NOT EXISTS `hg-auction` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `auctionname` varchar(255) DEFAULT NULL,
+  `price` int(11) DEFAULT NULL,
+  `category` varchar(255) DEFAULT NULL,
+  `starttime` varchar(255) DEFAULT NULL,
+  `endtime` varchar(255) DEFAULT NULL,
+  `isprivate` int(11) NOT NULL DEFAULT 0,
+  `isblackmoney` int(11) NOT NULL DEFAULT 0,
+  `img` varchar(1000) DEFAULT '',
+  `plate` varchar(255) DEFAULT NULL,
+  `itemname` varchar(255) DEFAULT NULL,
+  `propertyid` int(50) DEFAULT NULL,
+  `shellid` int(50) DEFAULT NULL,
+  `lastbetowner` varchar(65) DEFAULT NULL,
+  `lastbet_identifier` varchar(65) DEFAULT NULL,
+  `lastprice` int(11) DEFAULT NULL,
+  `ended` int(11) DEFAULT 0,
+  `deleted` int(11) DEFAULT 0,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=6 DEFAULT CHARSET=utf8;
 
+
+CREATE TABLE IF NOT EXISTS `hg-auction_demand` (
+  `auction_id` int(11) DEFAULT NULL,
+  `user_identifier` varchar(255) DEFAULT NULL,
+  `user_price` int(11) DEFAULT NULL,
+  `ended` int(11) DEFAULT 0,
+  `iswinner` int(11) DEFAULT 0,
+  `isblackmoney` int(11) DEFAULT 0
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 ```
 Use your prefered SQL client ([HeidiSQL](https://www.heidisql.com/){:target="_blank"}/[phpmyadmin](https://www.phpmyadmin.net/){:target="_blank"}/...) to execute the SQL onto your database.
 
