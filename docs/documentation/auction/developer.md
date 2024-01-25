@@ -101,6 +101,14 @@ function giveReward(xPlayer--[[ (1)!]], data--[[ (2)! ]])
 1. Player object (Dependant on the framework used)
 2. View [Data Object](#data-object)
 
+### Check before adding an auction
+This function is called before an auction gets added. You can add any logic you want. Return `false` to reject an auction.
+```lua
+function checkAvailability(data)--(1)!
+```
+
+1. View [Data Object](#data-object)
+
 ### Data Object
 ```lua
 data = {

@@ -149,6 +149,7 @@ Config.EnableNewAuctionNotif = true --(2)!
 -- You can change/translate the notifications/Text that show up.
 Config.NoBidder = "No one" --(3)!
 Config.AuctionAdded = "Auction Added"
+Config.AuctionNotAdded = "Error Adding Auction"
 Config.AuctionUpdated = "Auction Updated"
 Config.AuctionDeleted = "Auction Deleted"
 Config.NotEnoughMoney1 = "You Do not have enough dirty money to place this bid"
