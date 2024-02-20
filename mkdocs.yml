@@ -24,6 +24,7 @@ nav:
       - documentation/login/about.md
       - documentation/login/installation.md
       - documentation/login/configuration.md
+      - documentation/login/developer.md
   - "Shop":
     - shop/index.md
   - "About":
