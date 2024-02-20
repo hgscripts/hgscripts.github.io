@@ -42,9 +42,9 @@ Add the script to the FiveM resources folder
 Add the resource to your `server.cfg` (first script)
 ```ruby title="server.cfg"
 ensure hg-login
-ensure [core]
-ensure [standalone]
 ```
+!!! warning
+    Ensure that 'hg-login' is the first resource listed in your server.cfg file.
 
 ## Step 4 (Optional) - Change configuration
 Configure the script to your liking. Open `config.lua` in your prefered text editor and change the default values.

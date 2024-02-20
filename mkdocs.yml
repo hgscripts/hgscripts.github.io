@@ -25,6 +25,11 @@ nav:
       - documentation/login/installation.md
       - documentation/login/configuration.md
       - documentation/login/developer.md
+    - "✉️ Notify System":
+      - documentation/notify/about.md
+      - documentation/notify/installation.md
+      - documentation/notify/configuration.md
+      - documentation/notify/developer.md
   - "Shop":
     - shop/index.md
   - "About":
