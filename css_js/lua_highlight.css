@@ -1,0 +1,40 @@
+/*Notations*/
+[data-md-color-scheme=slate] .language-lua .n:nth-of-type(1){
+    color:#e06253 ;
+}
+
+/*NUMBERS*/
+[data-md-color-scheme=slate] .language-lua .mi{
+    color:#d19a56;
+}
+
+/*TRUE and FALSE*/
+[data-md-color-scheme=slate] .language-lua .kc{
+    color:#d18d4c;
+}
+/*Parenthesis, brackers etc...*/
+[data-md-color-scheme=slate] .language-lua .p{
+    color:#e6b422;
+}
+
+
+
+
+/*Notations*/
+[data-md-color-scheme=default] .language-lua .n:nth-of-type(1){
+    color:#7a3ea9 ;
+}
+
+/*NUMBERS*/
+[data-md-color-scheme=default] .language-lua .mi{
+    color:#9c5d27;
+}
+
+/*TRUE and FALSE*/
+[data-md-color-scheme=default] .language-lua .kc{
+    color:#9c5d27;
+}
+/*Parenthesis, brackers etc...*/
+[data-md-color-scheme=default] .language-lua .p{
+    color:#e6b422;
+}
